@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Scene } from 'react-native-router-flux';
+import { Router, Scene, Drawer } from 'react-native-router-flux';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -8,6 +8,7 @@ import WelcomeScene from './scenes/welcome';
 import SettingsScene from './scenes/settings';
 import { setLanguage } from '../actions/settings';
 import { init } from './translation';
+import DrawerComponent from '../components/drawer';
 
 class RouterComponent extends Component {
   constructor(props) {
@@ -18,10 +19,12 @@ class RouterComponent extends Component {
   render() {
     return (
       <Router>
-        <Scene panHandlers={null} hideNavBar>
-          {WelcomeScene()}
-          {SettingsScene()}
-        </Scene>
+        <Drawer contentComponent={DrawerComponent}>
+          <Scene panHandlers={null} hideNavBar>
+            {WelcomeScene()}
+            {SettingsScene()}
+          </Scene>
+        </Drawer>
       </Router>
     );
   }
