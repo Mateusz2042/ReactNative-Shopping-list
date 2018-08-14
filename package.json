@@ -1,0 +1,49 @@
+{
+  "name": "Zakupy",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.4.1",
+    "jest-react-native": "^18.0.0",
+    "react-native-debugger-open": "^0.3.17",
+    "react-test-renderer": "16.3.1",
+    "redux-devtools-extension": "^2.13.5"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "postinstall": "rndebugger-open"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-plugin-babel": "^5.1.0",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "^16.3.1",
+    "react-native": "^0.55.4",
+    "react-native-i18n": "^2.0.15",
+    "react-native-modal": "^6.5.0",
+    "react-native-router-flux": "^4.0.0-beta.31",
+    "react-native-update": "^5.1.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  }
+}

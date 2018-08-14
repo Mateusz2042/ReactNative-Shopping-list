@@ -1,0 +1,35 @@
+export default {
+  new_shopping_list: 'New shopping list',
+  shopping_lists: 'Shopping lists',
+  settings: 'Settings',
+  polish: 'Polish',
+  english: 'English',
+  italian: 'Italian',
+  change_language: 'Change language',
+  back: '< Back',
+  next: 'Next >',
+  cancel_question: 'Do you want clear all ?',
+  yes: 'Yes',
+  no: 'No',
+  clear_all: 'Clear data',
+  application_language: 'Application language',
+  my_shops: 'My shops',
+  add_shop: 'Add new Shop',
+  exit: 'Exit',
+  repeat_info: 'Shop already exists',
+  repeat_info_product: 'Product already exists',
+
+  // new list
+  shop_choice: 'Shop choice',
+  products_choice: 'Products choice',
+  save: 'Save',
+
+  // lists
+  create_date: 'Create date',
+  quantity_products: 'Quantity products',
+  list_details: 'List details',
+  not_choosed_shop: 'The shop was not selected',
+  redirect: 'Redirect',
+  no_shops: 'There aren\'t no shops.\nRedirect to define.',
+  edit: 'Edit >',
+};

@@ -1,0 +1,35 @@
+export default {
+  new_shopping_list: 'Nuova lista della spesa',
+  shopping_lists: 'Liste della spesa',
+  settings: 'Impostazioni',
+  polish: 'Polacco',
+  english: 'Inglese',
+  italian: 'Italiano',
+  change_language: 'Cambia la lingua',
+  back: '< Indietro',
+  next: '>>>',
+  cancel_question: 'Vuoi cancellare tutto ?',
+  yes: 'Si',
+  no: 'No',
+  clear_all: 'Cancella dati',
+  application_language: 'Linguaggio dell\'applicazione',
+  my_shops: 'I miei negozi',
+  add_shop: 'Aggiungi un nuovo negozio',
+  exit: 'Uscita',
+  repeat_info: 'Il negozio esiste già',
+  repeat_info_product: 'Il prodotto esiste già',
+
+  // new list
+  shop_choice: 'Scegliere un negozio',
+  products_choice: 'Selezione di prodotti',
+  save: 'Salva',
+
+  // lists
+  create_date: 'Data di creazione',
+  quantity_products: 'Numero di prodotti',
+  list_details: 'Lista dettagliata',
+  not_choosed_shop: 'Il negozio non è stato selezionato',
+  redirect: 'Andare',
+  no_shops: 'Nessun negozio.\nVai a definire',
+  edit: 'Edizione >',
+};
