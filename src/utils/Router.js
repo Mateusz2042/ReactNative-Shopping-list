@@ -20,7 +20,7 @@ class RouterComponent extends Component {
     return (
       <Router>
         <Drawer contentComponent={DrawerComponent}>
-          <Scene panHandlers={null} hideNavBar>
+          <Scene key="root" panHandlers={null} hideNavBar>
             {WelcomeScene()}
             {SettingsScene()}
           </Scene>
